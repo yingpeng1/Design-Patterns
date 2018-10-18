@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>prototype</OriginalElement>
+  <nodes>
+    <node x="30.0" y="113.0">prototype.ConcretePrototype</node>
+    <node x="149.625" y="307.0">prototype.Client</node>
+    <node x="77.83333333333334" y="0.0">prototype.Prototype</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="prototype.ConcretePrototype" target="prototype.Prototype">
+      <point x="55.75" y="-62.0" />
+      <point x="197.25" y="93.0" />
+      <point x="194.70833333333334" y="93.0" />
+      <point x="23.375" y="26.5" />
+    </edge>
+    <edge source="prototype.Client" target="prototype.ConcretePrototype">
+      <point x="-43.75" y="-26.5" />
+      <point x="193.375" y="287.0" />
+      <point x="215.83333333333331" y="287.0" />
+      <point x="74.33333333333331" y="62.0" />
+    </edge>
+    <edge source="prototype.Prototype" target="prototype.Prototype">
+      <point x="-70.125" y="26.5" />
+      <point x="101.20833333333334" y="73.0" />
+      <point x="57.83333333333334" y="73.0" />
+      <point x="57.83333333333334" y="26.5" />
+      <point x="-93.5" y="-0.0" />
+    </edge>
+    <edge source="prototype.Client" target="prototype.Prototype">
+      <point x="43.75000000000001" y="-26.5" />
+      <point x="280.875" y="287.0" />
+      <point x="263.5" y="287.0" />
+      <point x="263.5" y="93.0" />
+      <point x="241.45833333333334" y="93.0" />
+      <point x="70.125" y="26.5" />
+    </edge>
+    <edge source="prototype.ConcretePrototype" target="prototype.ConcretePrototype">
+      <point x="-74.33333333333331" y="62.0" />
+      <point x="67.16666666666669" y="257.0" />
+      <point x="10.0" y="257.0" />
+      <point x="10.0" y="206.0" />
+      <point x="-111.5" y="31.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="111.5" y="162.5" />
+  <SelectedNodes>
+    <node>prototype.Prototype</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

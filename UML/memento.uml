@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>memento</OriginalElement>
+  <nodes>
+    <node x="105.3125" y="149.0">memento.PreviousCalculationImp</node>
+    <node x="618.2632575757576" y="528.0">memento.Client</node>
+    <node x="0.0" y="0.0">memento.PreviousCalculationToOriginator</node>
+    <node x="382.14962121212125" y="23.0">memento.PreviousCalculationToCareTaker</node>
+    <node x="376.3125" y="126.0">memento.Calculator</node>
+    <node x="72.69886363636363" y="322.0">memento.CalculatorImp</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="memento.Calculator" target="memento.PreviousCalculationToCareTaker">
+      <point x="0.0" y="-73.0" />
+      <point x="599.3125" y="106.0" />
+      <point x="529.0246212121212" y="106.0" />
+      <point x="29.375" y="15.0" />
+    </edge>
+    <edge source="memento.CalculatorImp" target="memento.CalculatorImp">
+      <point x="-111.5" y="73.0" />
+      <point x="184.19886363636363" y="488.0" />
+      <point x="52.698863636363626" y="488.0" />
+      <point x="52.698863636363626" y="395.0" />
+      <point x="-223.0" y="-0.0" />
+    </edge>
+    <edge source="memento.CalculatorImp" target="memento.Calculator">
+      <point x="167.25" y="-73.0" />
+      <point x="462.9488636363636" y="297.0" />
+      <point x="487.8125" y="297.0" />
+      <point x="-111.5" y="73.0" />
+    </edge>
+    <edge source="memento.PreviousCalculationImp" target="memento.PreviousCalculationImp">
+      <point x="-62.5" y="50.0" />
+      <point x="167.8125" y="269.0" />
+      <point x="85.3125" y="269.0" />
+      <point x="85.3125" y="199.0" />
+      <point x="-125.0" y="-0.0" />
+    </edge>
+    <edge source="memento.Client" target="memento.PreviousCalculationToCareTaker">
+      <point x="58.33333333333337" y="-26.5" />
+      <point x="764.096590909091" y="508.0" />
+      <point x="832.8125" y="508.0" />
+      <point x="832.8125" y="96.0" />
+      <point x="587.7746212121212" y="96.0" />
+      <point x="88.125" y="15.0" />
+    </edge>
+    <edge source="memento.PreviousCalculationImp" target="memento.PreviousCalculationToCareTaker">
+      <point x="62.5" y="-50.0" />
+      <point x="292.8125" y="96.0" />
+      <point x="411.52462121212125" y="96.0" />
+      <point x="-88.125" y="15.0" />
+    </edge>
+    <edge source="memento.CalculatorImp" target="memento.PreviousCalculationToOriginator">
+      <point x="-167.25" y="-73.0" />
+      <point x="128.44886363636363" y="297.0" />
+      <point x="71.0" y="297.0" />
+      <point x="71.0" y="106.0" />
+      <point x="58.75" y="106.0" />
+      <point x="-58.75" y="38.0" />
+    </edge>
+    <edge source="memento.CalculatorImp" target="memento.PreviousCalculationImp">
+      <point x="-55.75" y="-73.0" />
+      <point x="239.94886363636363" y="297.0" />
+      <point x="292.8125" y="297.0" />
+      <point x="62.5" y="50.0" />
+    </edge>
+    <edge source="memento.Client" target="memento.Calculator">
+      <point x="0.0" y="-26.5" />
+      <point x="705.7632575757576" y="508.0" />
+      <point x="710.8125" y="508.0" />
+      <point x="111.5" y="73.0" />
+    </edge>
+    <edge source="memento.Client" target="memento.CalculatorImp">
+      <point x="-58.33333333333337" y="-26.5" />
+      <point x="647.4299242424242" y="508.0" />
+      <point x="407.1988636363636" y="508.0" />
+      <point x="111.5" y="73.0" />
+    </edge>
+    <edge source="memento.PreviousCalculationImp" target="memento.PreviousCalculationToOriginator">
+      <point x="-62.5" y="-50.0" />
+      <point x="167.8125" y="106.0" />
+      <point x="176.25" y="106.0" />
+      <point x="58.75" y="38.0" />
+    </edge>
+    <edge source="memento.CalculatorImp" target="memento.PreviousCalculationToCareTaker">
+      <point x="55.75" y="-73.0" />
+      <point x="351.4488636363636" y="297.0" />
+      <point x="365.8125" y="297.0" />
+      <point x="365.8125" y="106.0" />
+      <point x="470.27462121212125" y="106.0" />
+      <point x="-29.375" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="377.0" y="451.5" />
+  <SelectedNodes>
+    <node>memento.PreviousCalculationToCareTaker</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

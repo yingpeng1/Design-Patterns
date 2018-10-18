@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>command</OriginalElement>
+  <nodes>
+    <node x="366.3287037037037" y="452.0">command.Client</node>
+    <node x="71.41203703703707" y="0.0">command.Light</node>
+    <node x="41.5" y="213.5">command.LightOffCommand</node>
+    <node x="502.7453703703703" y="11.5">command.Command</node>
+    <node x="295.5" y="213.5">command.LightOnCommand</node>
+    <node x="549.5" y="156.0">command.Invoker</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="command.LightOnCommand" target="command.Light">
+      <point x="-71.0" y="-50.5" />
+      <point x="331.0" y="106.0" />
+      <point x="162.16203703703707" y="106.0" />
+      <point x="30.25" y="38.0" />
+    </edge>
+    <edge source="command.Client" target="command.LightOffCommand">
+      <point x="-25.0" y="-26.5" />
+      <point x="428.8287037037037" y="412.0" />
+      <point x="202.0" y="412.0" />
+      <point x="53.5" y="50.5" />
+    </edge>
+    <edge source="command.LightOffCommand" target="command.Command">
+      <point x="71.33333333333331" y="-50.5" />
+      <point x="219.83333333333331" y="116.0" />
+      <point x="515.162037037037" y="116.0" />
+      <point x="-62.08333333333337" y="26.5" />
+    </edge>
+    <edge source="command.Client" target="command.LightOnCommand">
+      <point x="0.0" y="-26.5" />
+      <point x="453.8287037037037" y="432.0" />
+      <point x="455.25" y="432.0" />
+      <point x="53.25" y="50.5" />
+    </edge>
+    <edge source="command.LightOnCommand" target="command.LightOnCommand">
+      <point x="-53.25" y="50.5" />
+      <point x="348.75" y="334.5" />
+      <point x="275.5" y="334.5" />
+      <point x="275.5" y="264.0" />
+      <point x="-106.5" y="-0.0" />
+    </edge>
+    <edge source="command.LightOffCommand" target="command.LightOffCommand">
+      <point x="-53.5" y="50.5" />
+      <point x="95.0" y="334.5" />
+      <point x="21.5" y="334.5" />
+      <point x="21.5" y="264.0" />
+      <point x="-107.0" y="-0.0" />
+    </edge>
+    <edge source="command.Invoker" target="command.Invoker">
+      <point x="-95.66666666666669" y="108.0" />
+      <point x="597.3333333333333" y="392.0" />
+      <point x="529.5" y="392.0" />
+      <point x="529.5" y="264.0" />
+      <point x="-143.5" y="-0.0" />
+    </edge>
+    <edge source="command.Invoker" target="command.Command">
+      <point x="0.0" y="-108.0" />
+      <point x="693.0" y="136.0" />
+      <point x="614.4953703703703" y="136.0" />
+      <point x="37.25" y="26.5" />
+    </edge>
+    <edge source="command.Client" target="command.Invoker">
+      <point x="50.0" y="-26.5" />
+      <point x="503.8287037037037" y="422.0" />
+      <point x="693.0" y="422.0" />
+      <point x="0.0" y="108.0" />
+    </edge>
+    <edge source="command.Client" target="command.Command">
+      <point x="25.0" y="-26.5" />
+      <point x="478.8287037037037" y="412.0" />
+      <point x="519.0" y="412.0" />
+      <point x="519.0" y="136.0" />
+      <point x="564.8287037037037" y="136.0" />
+      <point x="-12.416666666666629" y="26.5" />
+    </edge>
+    <edge source="command.LightOnCommand" target="command.Command">
+      <point x="71.0" y="-50.5" />
+      <point x="473.0" y="126.0" />
+      <point x="539.9953703703703" y="126.0" />
+      <point x="-37.25" y="26.5" />
+    </edge>
+    <edge source="command.Client" target="command.Light">
+      <point x="-50.0" y="-26.5" />
+      <point x="403.8287037037037" y="422.0" />
+      <point x="11.0" y="422.0" />
+      <point x="11.0" y="126.0" />
+      <point x="101.66203703703707" y="126.0" />
+      <point x="-30.25" y="38.0" />
+    </edge>
+    <edge source="command.LightOffCommand" target="command.Light">
+      <point x="-71.33333333333331" y="-50.5" />
+      <point x="77.16666666666669" y="136.0" />
+      <point x="121.82870370370372" y="136.0" />
+      <point x="-10.083333333333343" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.1123499142367068" x="439.50886661526596" y="140.4710871241326" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

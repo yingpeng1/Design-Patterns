@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>abstractFactory</OriginalElement>
+  <nodes>
+    <node x="24.75" y="276.0">abstractFactory.ConcreteFactory1</node>
+    <node x="281.67324561403507" y="150.0">abstractFactory.AbstractFactory</node>
+    <node x="545.7938596491229" y="276.0">abstractFactory.ConcreteFactory2</node>
+    <node x="10.5" y="173.0">abstractFactory.ProductB1</node>
+    <node x="153.67324561403507" y="173.0">abstractFactory.ProductA1</node>
+    <node x="571.6732456140351" y="173.0">abstractFactory.ProductB2</node>
+    <node x="722.0438596491229" y="173.0">abstractFactory.ProductA2</node>
+    <node x="166.17324561403507" y="0.0">abstractFactory.AbstractProductB</node>
+    <node x="518.1732456140351" y="0.0">abstractFactory.AbstractProductA</node>
+    <node x="199.62061403508778" y="402.0">abstractFactory.Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="abstractFactory.ConcreteFactory2" target="abstractFactory.AbstractFactory">
+      <point x="-108.0" y="-38.0" />
+      <point x="572.7938596491229" y="251.0" />
+      <point x="506.67324561403507" y="251.0" />
+      <point x="90.0" y="38.0" />
+    </edge>
+    <edge source="abstractFactory.ProductA2" target="abstractFactory.AbstractProductA">
+      <point x="0.0" y="-15.0" />
+      <point x="776.0438596491229" y="60.0" />
+      <point x="629.9232456140351" y="60.0" />
+      <point x="37.25" y="15.0" />
+    </edge>
+    <edge source="abstractFactory.ProductA1" target="abstractFactory.AbstractProductA">
+      <point x="0.0" y="-15.0" />
+      <point x="207.67324561403507" y="120.0" />
+      <point x="555.4232456140351" y="120.0" />
+      <point x="-37.25" y="15.0" />
+    </edge>
+    <edge source="abstractFactory.ProductB2" target="abstractFactory.AbstractProductB">
+      <point x="0.0" y="-15.0" />
+      <point x="625.6732456140351" y="90.0" />
+      <point x="277.92324561403507" y="90.0" />
+      <point x="37.25" y="15.0" />
+    </edge>
+    <edge source="abstractFactory.ProductB1" target="abstractFactory.AbstractProductB">
+      <point x="0.0" y="-15.0" />
+      <point x="64.5" y="90.0" />
+      <point x="203.42324561403507" y="90.0" />
+      <point x="-37.25" y="15.0" />
+    </edge>
+    <edge source="abstractFactory.AbstractFactory" target="abstractFactory.AbstractProductB">
+      <point x="-67.5" y="-38.0" />
+      <point x="349.17324561403507" y="100.0" />
+      <point x="253.0899122807017" y="100.0" />
+      <point x="12.416666666666629" y="15.0" />
+    </edge>
+    <edge source="abstractFactory.AbstractFactory" target="abstractFactory.AbstractProductA">
+      <point x="67.5" y="-38.0" />
+      <point x="484.17324561403507" y="130.0" />
+      <point x="580.2565789473683" y="130.0" />
+      <point x="-12.416666666666686" y="15.0" />
+    </edge>
+    <edge source="abstractFactory.ConcreteFactory1" target="abstractFactory.AbstractProductB">
+      <point x="-54.0" y="-38.0" />
+      <point x="105.75" y="251.0" />
+      <point x="129.0" y="251.0" />
+      <point x="129.0" y="100.0" />
+      <point x="228.25657894736844" y="100.0" />
+      <point x="-12.416666666666629" y="15.0" />
+    </edge>
+    <edge source="abstractFactory.ConcreteFactory2" target="abstractFactory.AbstractProductB">
+      <point x="0.0" y="-38.0" />
+      <point x="680.7938596491229" y="251.0" />
+      <point x="690.1732456140351" y="251.0" />
+      <point x="690.1732456140351" y="80.0" />
+      <point x="302.7565789473683" y="80.0" />
+      <point x="62.08333333333326" y="15.0" />
+    </edge>
+    <edge source="abstractFactory.ConcreteFactory1" target="abstractFactory.AbstractProductA">
+      <point x="0.0" y="-38.0" />
+      <point x="159.75" y="251.0" />
+      <point x="143.17324561403507" y="251.0" />
+      <point x="143.17324561403507" y="110.0" />
+      <point x="530.5899122807018" y="110.0" />
+      <point x="-62.083333333333314" y="15.0" />
+    </edge>
+    <edge source="abstractFactory.ConcreteFactory2" target="abstractFactory.ProductB2">
+      <point x="-54.0" y="-38.0" />
+      <point x="626.7938596491229" y="251.0" />
+      <point x="625.6732456140351" y="251.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="abstractFactory.ConcreteFactory1" target="abstractFactory.ProductB1">
+      <point x="-108.0" y="-38.0" />
+      <point x="51.75" y="251.0" />
+      <point x="64.5" y="251.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="abstractFactory.Client" target="abstractFactory.AbstractProductB">
+      <point x="-65.625" y="-26.5" />
+      <point x="221.49561403508778" y="382.0" />
+      <point x="0.0" y="382.0" />
+      <point x="0.0" y="80.0" />
+      <point x="178.5899122807017" y="80.0" />
+      <point x="-62.08333333333337" y="15.0" />
+    </edge>
+    <edge source="abstractFactory.ConcreteFactory2" target="abstractFactory.ProductA2">
+      <point x="108.0" y="-38.0" />
+      <point x="788.7938596491229" y="251.0" />
+      <point x="776.0438596491229" y="251.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="abstractFactory.ConcreteFactory1" target="abstractFactory.ProductA1">
+      <point x="54.0" y="-38.0" />
+      <point x="213.75" y="251.0" />
+      <point x="207.67324561403507" y="251.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="abstractFactory.Client" target="abstractFactory.AbstractProductA">
+      <point x="65.625" y="-26.5" />
+      <point x="352.7456140350878" y="382.0" />
+      <point x="840.5438596491229" y="382.0" />
+      <point x="840.5438596491229" y="50.0" />
+      <point x="654.7565789473683" y="50.0" />
+      <point x="62.083333333333314" y="15.0" />
+    </edge>
+    <edge source="abstractFactory.ConcreteFactory1" target="abstractFactory.AbstractFactory">
+      <point x="108.0" y="-38.0" />
+      <point x="267.75" y="251.0" />
+      <point x="326.67324561403507" y="251.0" />
+      <point x="-90.0" y="38.0" />
+    </edge>
+    <edge source="abstractFactory.Client" target="abstractFactory.AbstractFactory">
+      <point x="21.875" y="-26.5" />
+      <point x="308.9956140350878" y="372.0" />
+      <point x="416.67324561403507" y="372.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="abstractFactory.Client" target="abstractFactory.ConcreteFactory1">
+      <point x="-21.875" y="-26.5" />
+      <point x="265.2456140350878" y="372.0" />
+      <point x="159.75" y="372.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="abstractFactory.ConcreteFactory2" target="abstractFactory.AbstractProductA">
+      <point x="54.0" y="-38.0" />
+      <point x="734.7938596491229" y="251.0" />
+      <point x="711.5438596491229" y="251.0" />
+      <point x="711.5438596491229" y="70.0" />
+      <point x="605.0899122807017" y="70.0" />
+      <point x="12.416666666666657" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="371.0" y="227.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

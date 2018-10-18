@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>iterator</OriginalElement>
+  <nodes>
+    <node x="251.0" y="173.0">iterator.Aggregate</node>
+    <node x="209.25" y="0.0">iterator.Iterator</node>
+    <node x="20.0" y="126.0">iterator.ConcreteIterator</node>
+    <node x="307.99074074074076" y="494.0">iterator.Client</node>
+    <node x="140.03240740740742" y="333.0">iterator.ConcreteAggregate</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="iterator.Client" target="iterator.Iterator">
+      <point x="58.333333333333314" y="-26.5" />
+      <point x="453.8240740740741" y="474.0" />
+      <point x="465.5" y="474.0" />
+      <point x="465.5" y="101.0" />
+      <point x="362.375" y="101.0" />
+      <point x="65.625" y="38.0" />
+    </edge>
+    <edge source="iterator.ConcreteAggregate" target="iterator.Aggregate">
+      <point x="68.0" y="-50.5" />
+      <point x="310.0324074074074" y="313.0" />
+      <point x="302.0" y="313.0" />
+      <point x="-51.0" y="26.5" />
+    </edge>
+    <edge source="iterator.Aggregate" target="iterator.Iterator">
+      <point x="0.0" y="-26.5" />
+      <point x="353.0" y="101.0" />
+      <point x="318.625" y="101.0" />
+      <point x="21.875" y="38.0" />
+    </edge>
+    <edge source="iterator.Client" target="iterator.ConcreteAggregate">
+      <point x="-58.33333333333337" y="-26.5" />
+      <point x="337.1574074074074" y="474.0" />
+      <point x="293.0324074074074" y="474.0" />
+      <point x="51.0" y="50.5" />
+    </edge>
+    <edge source="iterator.Client" target="iterator.Aggregate">
+      <point x="0.0" y="-26.5" />
+      <point x="395.49074074074076" y="474.0" />
+      <point x="404.0" y="474.0" />
+      <point x="51.0" y="26.5" />
+    </edge>
+    <edge source="iterator.ConcreteAggregate" target="iterator.ConcreteIterator">
+      <point x="-68.0" y="-50.5" />
+      <point x="174.03240740740742" y="313.0" />
+      <point x="177.5" y="313.0" />
+      <point x="52.5" y="73.5" />
+    </edge>
+    <edge source="iterator.ConcreteAggregate" target="iterator.Iterator">
+      <point x="0.0" y="-50.5" />
+      <point x="242.03240740740742" y="313.0" />
+      <point x="240.5" y="313.0" />
+      <point x="240.5" y="101.0" />
+      <point x="274.875" y="101.0" />
+      <point x="-21.875" y="38.0" />
+    </edge>
+    <edge source="iterator.ConcreteIterator" target="iterator.Iterator">
+      <point x="0.0" y="-73.5" />
+      <point x="125.0" y="101.0" />
+      <point x="231.125" y="101.0" />
+      <point x="-65.625" y="38.0" />
+    </edge>
+    <edge source="iterator.ConcreteIterator" target="iterator.ConcreteIterator">
+      <point x="-52.5" y="73.5" />
+      <point x="72.5" y="293.0" />
+      <point x="0.0" y="293.0" />
+      <point x="0.0" y="199.5" />
+      <point x="-105.0" y="-0.0" />
+    </edge>
+    <edge source="iterator.ConcreteAggregate" target="iterator.ConcreteAggregate">
+      <point x="-51.0" y="50.5" />
+      <point x="191.03240740740742" y="454.0" />
+      <point x="120.03240740740742" y="454.0" />
+      <point x="120.03240740740742" y="383.5" />
+      <point x="-102.0" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="212.0" y="268.5" />
+  <SelectedNodes>
+    <node>iterator.ConcreteAggregate</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

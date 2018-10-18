@@ -2,6 +2,7 @@ package singleton;
 
 /**
  * 枚举实现
+ * jvm保证只会实例化一次，不会出现反射攻击
  */
 public enum Singleton6 {
 

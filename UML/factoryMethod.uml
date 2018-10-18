@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>factoryMethod</OriginalElement>
+  <nodes>
+    <node x="0.0" y="136.0">factoryMethod.ConcreteFactory2</node>
+    <node x="231.0" y="136.0">factoryMethod.ConcreteFactory</node>
+    <node x="204.625" y="0.0">factoryMethod.Factory</node>
+    <node x="462.0" y="136.0">factoryMethod.ConcreteFactory1</node>
+    <node x="0.0" y="314.0">factoryMethod.ConcreteProduct2</node>
+    <node x="337.0" y="314.0">factoryMethod.ConcreteProduct1</node>
+    <node x="198.0" y="234.0">factoryMethod.Product</node>
+    <node x="172.0" y="314.0">factoryMethod.ConcreteProduct</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="factoryMethod.Factory" target="factoryMethod.Factory">
+      <point x="-79.125" y="38.0" />
+      <point x="231.0" y="96.0" />
+      <point x="184.625" y="96.0" />
+      <point x="184.625" y="38.0" />
+      <point x="-105.5" y="-0.0" />
+    </edge>
+    <edge source="factoryMethod.ConcreteFactory" target="factoryMethod.Factory">
+      <point x="0.0" y="-26.5" />
+      <point x="26.375" y="38.0" />
+    </edge>
+    <edge source="factoryMethod.ConcreteFactory2" target="factoryMethod.Factory">
+      <point x="0.0" y="-26.5" />
+      <point x="105.5" y="116.0" />
+      <point x="283.75" y="116.0" />
+      <point x="-26.375" y="38.0" />
+    </edge>
+    <edge source="factoryMethod.ConcreteFactory1" target="factoryMethod.Factory">
+      <point x="0.0" y="-26.5" />
+      <point x="567.5" y="116.0" />
+      <point x="389.25" y="116.0" />
+      <point x="79.125" y="38.0" />
+    </edge>
+    <edge source="factoryMethod.ConcreteProduct" target="factoryMethod.Product">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="factoryMethod.ConcreteProduct1" target="factoryMethod.Product">
+      <point x="0.0" y="-15.0" />
+      <point x="413.0" y="289.0" />
+      <point x="275.5" y="289.0" />
+      <point x="31.0" y="15.0" />
+    </edge>
+    <edge source="factoryMethod.ConcreteProduct2" target="factoryMethod.Product">
+      <point x="0.0" y="-15.0" />
+      <point x="76.0" y="289.0" />
+      <point x="213.5" y="289.0" />
+      <point x="-31.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="336.5" y="167.0" />
+  <SelectedNodes>
+    <node>factoryMethod.ConcreteFactory2</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

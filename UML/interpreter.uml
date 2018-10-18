@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>interpreter</OriginalElement>
+  <nodes>
+    <node x="559.7916666666666" y="270.0">interpreter.Client</node>
+    <node x="359.0" y="123.0">interpreter.OrExpression</node>
+    <node x="20.0" y="123.0">interpreter.AndExpression</node>
+    <node x="356.8958333333333" y="0.0">interpreter.Expression</node>
+    <node x="690.0" y="123.0">interpreter.TerminalExpression</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="interpreter.AndExpression" target="interpreter.Expression">
+      <point x="5.6843418860808015E-14" y="-38.5" />
+      <point x="169.50000000000006" y="83.0" />
+      <point x="396.6458333333333" y="83.0" />
+      <point x="-66.25" y="26.5" />
+    </edge>
+    <edge source="interpreter.AndExpression" target="interpreter.AndExpression">
+      <point x="-74.75" y="38.5" />
+      <point x="94.75" y="220.0" />
+      <point x="0.0" y="220.0" />
+      <point x="0.0" y="161.5" />
+      <point x="-149.5" y="-0.0" />
+    </edge>
+    <edge source="interpreter.TerminalExpression" target="interpreter.TerminalExpression">
+      <point x="-56.75" y="38.5" />
+      <point x="746.75" y="220.0" />
+      <point x="670.0" y="220.0" />
+      <point x="670.0" y="161.5" />
+      <point x="-113.5" y="-0.0" />
+    </edge>
+    <edge source="interpreter.TerminalExpression" target="interpreter.Expression">
+      <point x="0.0" y="-38.5" />
+      <point x="803.5" y="83.0" />
+      <point x="529.1458333333333" y="83.0" />
+      <point x="66.24999999999994" y="26.5" />
+    </edge>
+    <edge source="interpreter.OrExpression" target="interpreter.OrExpression">
+      <point x="-72.75" y="38.5" />
+      <point x="431.75" y="220.0" />
+      <point x="339.0" y="220.0" />
+      <point x="339.0" y="161.5" />
+      <point x="-145.5" y="-0.0" />
+    </edge>
+    <edge source="interpreter.Client" target="interpreter.Expression">
+      <point x="97.87499999999999" y="-38.0" />
+      <point x="788.1666666666666" y="250.0" />
+      <point x="927.5" y="250.0" />
+      <point x="927.5" y="73.0" />
+      <point x="555.6458333333333" y="73.0" />
+      <point x="92.74999999999994" y="26.5" />
+    </edge>
+    <edge source="interpreter.Client" target="interpreter.OrExpression">
+      <point x="-32.625" y="-38.0" />
+      <point x="657.6666666666666" y="240.0" />
+      <point x="577.25" y="240.0" />
+      <point x="72.75" y="38.5" />
+    </edge>
+    <edge source="interpreter.OrExpression" target="interpreter.Expression">
+      <point x="-97.0" y="-38.5" />
+      <point x="407.5" y="103.0" />
+      <point x="449.6458333333333" y="103.0" />
+      <point x="-13.25" y="26.5" />
+    </edge>
+    <edge source="interpreter.Client" target="interpreter.TerminalExpression">
+      <point x="32.625" y="-38.0" />
+      <point x="722.9166666666666" y="240.0" />
+      <point x="860.25" y="240.0" />
+      <point x="56.75" y="38.5" />
+    </edge>
+    <edge source="interpreter.Client" target="interpreter.AndExpression">
+      <point x="-97.875" y="-38.0" />
+      <point x="592.4166666666666" y="250.0" />
+      <point x="244.25000000000006" y="250.0" />
+      <point x="74.75000000000006" y="38.5" />
+    </edge>
+    <edge source="interpreter.Client" target="interpreter.Client">
+      <point x="0.0" y="38.0" />
+      <point x="690.2916666666666" y="366.0" />
+      <point x="539.7916666666666" y="366.0" />
+      <point x="539.7916666666666" y="308.0" />
+      <point x="-130.5" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="472.0" y="158.5" />
+  <SelectedNodes>
+    <node>interpreter.Client</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

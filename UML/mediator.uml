@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>mediator</OriginalElement>
+  <nodes>
+    <node x="225.0" y="216.0">mediator.Alarm</node>
+    <node x="608.1089285714286" y="216.0">mediator.Calender</node>
+    <node x="0.0" y="216.0">mediator.Sprinkler</node>
+    <node x="608.7007142857143" y="734.0">mediator.Client</node>
+    <node x="833.1089285714286" y="216.0">mediator.CoffeePot</node>
+    <node x="556.0332142857143" y="0.0">mediator.Mediator</node>
+    <node x="538.7964285714286" y="113.0">mediator.Colleague</node>
+    <node x="324.6382142857143" y="372.0">mediator.ConcreteMediator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="mediator.Client" target="mediator.Sprinkler">
+      <point x="-61.25" y="-26.5" />
+      <point x="634.9507142857143" y="704.0" />
+      <point x="69.13821428571441" y="704.0" />
+      <point x="69.13821428571441" y="352.0" />
+      <point x="76.875" y="352.0" />
+      <point x="-25.625" y="38.0" />
+    </edge>
+    <edge source="mediator.Colleague" target="mediator.Mediator">
+      <point x="0.0" y="-26.5" />
+      <point x="641.2964285714286" y="93.0" />
+      <point x="649.0332142857143" y="93.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="mediator.ConcreteMediator" target="mediator.ConcreteMediator">
+      <point x="-100.5" y="131.0" />
+      <point x="425.1382142857143" y="654.0" />
+      <point x="304.6382142857143" y="654.0" />
+      <point x="304.6382142857143" y="503.0" />
+      <point x="-201.0" y="-0.0" />
+    </edge>
+    <edge source="mediator.Client" target="mediator.Mediator">
+      <point x="78.75" y="-26.5" />
+      <point x="774.9507142857143" y="714.0" />
+      <point x="1048.6089285714286" y="714.0" />
+      <point x="1048.6089285714286" y="73.0" />
+      <point x="728.7475" y="73.0" />
+      <point x="79.71428571428567" y="26.5" />
+    </edge>
+    <edge source="mediator.Client" target="mediator.ConcreteMediator">
+      <point x="-8.75" y="-26.5" />
+      <point x="687.4507142857143" y="674.0" />
+      <point x="626.1382142857143" y="674.0" />
+      <point x="100.5" y="131.0" />
+    </edge>
+    <edge source="mediator.Client" target="mediator.Alarm">
+      <point x="-26.25" y="-26.5" />
+      <point x="669.9507142857143" y="684.0" />
+      <point x="294.1382142857143" y="684.0" />
+      <point x="294.1382142857143" y="352.0" />
+      <point x="301.875" y="352.0" />
+      <point x="-25.625" y="38.0" />
+    </edge>
+    <edge source="mediator.Sprinkler" target="mediator.Colleague">
+      <point x="51.25" y="-38.0" />
+      <point x="153.75" y="186.0" />
+      <point x="564.4214285714286" y="186.0" />
+      <point x="-76.875" y="26.5" />
+    </edge>
+    <edge source="mediator.Calender" target="mediator.Colleague">
+      <point x="-51.25" y="-38.0" />
+      <point x="659.3589285714286" y="196.0" />
+      <point x="666.9214285714286" y="196.0" />
+      <point x="25.625" y="26.5" />
+    </edge>
+    <edge source="mediator.Alarm" target="mediator.Mediator">
+      <point x="-51.25" y="-38.0" />
+      <point x="276.25" y="83.0" />
+      <point x="595.8903571428572" y="83.0" />
+      <point x="-53.14285714285711" y="26.5" />
+    </edge>
+    <edge source="mediator.Client" target="mediator.Calender">
+      <point x="26.25" y="-26.5" />
+      <point x="722.4507142857143" y="684.0" />
+      <point x="775.2064285714287" y="684.0" />
+      <point x="775.2064285714287" y="332.0" />
+      <point x="787.4839285714286" y="332.0" />
+      <point x="76.875" y="38.0" />
+    </edge>
+    <edge source="mediator.ConcreteMediator" target="mediator.CoffeePot">
+      <point x="178.66666666666663" y="-131.0" />
+      <point x="704.3048809523809" y="352.0" />
+      <point x="909.9839285714286" y="352.0" />
+      <point x="-25.625" y="38.0" />
+    </edge>
+    <edge source="mediator.Alarm" target="mediator.Colleague">
+      <point x="51.25" y="-38.0" />
+      <point x="378.75" y="196.0" />
+      <point x="615.6714285714286" y="196.0" />
+      <point x="-25.625" y="26.5" />
+    </edge>
+    <edge source="mediator.Calender" target="mediator.Mediator">
+      <point x="51.25" y="-38.0" />
+      <point x="761.8589285714286" y="196.0" />
+      <point x="754.2964285714286" y="196.0" />
+      <point x="754.2964285714286" y="93.0" />
+      <point x="675.6046428571428" y="93.0" />
+      <point x="26.571428571428555" y="26.5" />
+    </edge>
+    <edge source="mediator.Sprinkler" target="mediator.Mediator">
+      <point x="-51.25" y="-38.0" />
+      <point x="51.25" y="73.0" />
+      <point x="569.3189285714286" y="73.0" />
+      <point x="-79.71428571428567" y="26.5" />
+    </edge>
+    <edge source="mediator.ConcreteMediator" target="mediator.Mediator">
+      <point x="0.0" y="-131.0" />
+      <point x="525.6382142857143" y="93.0" />
+      <point x="622.4617857142857" y="93.0" />
+      <point x="-26.571428571428555" y="26.5" />
+    </edge>
+    <edge source="mediator.CoffeePot" target="mediator.Colleague">
+      <point x="-51.25" y="-38.0" />
+      <point x="884.3589285714286" y="186.0" />
+      <point x="718.1714285714286" y="186.0" />
+      <point x="76.875" y="26.5" />
+    </edge>
+    <edge source="mediator.ConcreteMediator" target="mediator.Sprinkler">
+      <point x="-133.9999999999999" y="-131.0" />
+      <point x="391.6382142857144" y="332.0" />
+      <point x="179.375" y="332.0" />
+      <point x="76.875" y="38.0" />
+    </edge>
+    <edge source="mediator.Client" target="mediator.CoffeePot">
+      <point x="61.25" y="-26.5" />
+      <point x="757.4507142857143" y="704.0" />
+      <point x="1000.2064285714287" y="704.0" />
+      <point x="1000.2064285714287" y="352.0" />
+      <point x="1012.4839285714286" y="352.0" />
+      <point x="76.875" y="38.0" />
+    </edge>
+    <edge source="mediator.CoffeePot" target="mediator.Mediator">
+      <point x="51.25" y="-38.0" />
+      <point x="986.8589285714286" y="83.0" />
+      <point x="702.1760714285714" y="83.0" />
+      <point x="53.14285714285711" y="26.5" />
+    </edge>
+    <edge source="mediator.ConcreteMediator" target="mediator.Alarm">
+      <point x="-89.33333333333326" y="-131.0" />
+      <point x="436.30488095238104" y="322.0" />
+      <point x="353.125" y="322.0" />
+      <point x="25.625" y="38.0" />
+    </edge>
+    <edge source="mediator.ConcreteMediator" target="mediator.Calender">
+      <point x="89.33333333333337" y="-131.0" />
+      <point x="614.9715476190477" y="332.0" />
+      <point x="684.9839285714286" y="332.0" />
+      <point x="-25.625" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="596.0" y="645.5" />
+  <SelectedNodes>
+    <node>mediator.Colleague</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

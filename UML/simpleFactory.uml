@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>simpleFactory</OriginalElement>
+  <nodes>
+    <node x="300.72962962962964" y="263.0">simpleFactory.Client</node>
+    <node x="0.0" y="80.0">simpleFactory.ConcreteProduct2</node>
+    <node x="172.0" y="80.0">simpleFactory.ConcreteProduct1</node>
+    <node x="363.4092592592593" y="0.0">simpleFactory.Product</node>
+    <node x="344.0" y="80.0">simpleFactory.ConcreteProduct</node>
+    <node x="223.22962962962964" y="160.0">simpleFactory.SimpleFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="simpleFactory.SimpleFactory" target="simpleFactory.ConcreteProduct">
+      <point x="27.5" y="-26.5" />
+      <point x="360.72962962962964" y="130.0" />
+      <point x="416.5" y="130.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="simpleFactory.ConcreteProduct1" target="simpleFactory.Product">
+      <point x="0.0" y="-15.0" />
+      <point x="248.0" y="60.0" />
+      <point x="391.30925925925925" y="60.0" />
+      <point x="-18.600000000000023" y="15.0" />
+    </edge>
+    <edge source="simpleFactory.ConcreteProduct2" target="simpleFactory.Product">
+      <point x="0.0" y="-15.0" />
+      <point x="76.0" y="50.0" />
+      <point x="372.7092592592593" y="50.0" />
+      <point x="-37.19999999999999" y="15.0" />
+    </edge>
+    <edge source="simpleFactory.Client" target="simpleFactory.Product">
+      <point x="58.33333333333331" y="-26.5" />
+      <point x="446.56296296296296" y="238.0" />
+      <point x="520.6462962962963" y="238.0" />
+      <point x="520.6462962962963" y="50.0" />
+      <point x="447.10925925925926" y="50.0" />
+      <point x="37.19999999999998" y="15.0" />
+    </edge>
+    <edge source="simpleFactory.SimpleFactory" target="simpleFactory.ConcreteProduct1">
+      <point x="-27.5" y="-26.5" />
+      <point x="305.72962962962964" y="130.0" />
+      <point x="248.0" y="130.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="simpleFactory.Client" target="simpleFactory.SimpleFactory">
+      <point x="0.0" y="-26.5" />
+      <point x="55.0" y="26.5" />
+    </edge>
+    <edge source="simpleFactory.SimpleFactory" target="simpleFactory.ConcreteProduct2">
+      <point x="-82.5" y="-26.5" />
+      <point x="250.72962962962964" y="140.0" />
+      <point x="76.0" y="140.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="simpleFactory.ConcreteProduct" target="simpleFactory.Product">
+      <point x="0.0" y="-15.0" />
+      <point x="416.5" y="60.0" />
+      <point x="409.9092592592593" y="60.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="simpleFactory.SimpleFactory" target="simpleFactory.Product">
+      <point x="82.5" y="-26.5" />
+      <point x="415.72962962962964" y="140.0" />
+      <point x="499.5" y="140.0" />
+      <point x="499.5" y="60.0" />
+      <point x="428.5092592592593" y="60.0" />
+      <point x="18.600000000000023" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="244.5" y="158.0" />
+  <SelectedNodes>
+    <node>simpleFactory.Client</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

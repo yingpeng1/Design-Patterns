@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>templateMethod</OriginalElement>
+  <nodes>
+    <node x="217.0" y="205.0">templateMethod.Coffee</node>
+    <node x="0.0" y="205.0">templateMethod.Tea</node>
+    <node x="192.375" y="0.0">templateMethod.CaffeineBeverage</node>
+    <node x="228.0" y="331.0">templateMethod.Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="templateMethod.CaffeineBeverage" target="templateMethod.CaffeineBeverage">
+      <point x="-73.875" y="72.5" />
+      <point x="217.0" y="165.0" />
+      <point x="172.375" y="165.0" />
+      <point x="172.375" y="72.5" />
+      <point x="-98.5" y="-0.0" />
+    </edge>
+    <edge source="templateMethod.Coffee" target="templateMethod.CaffeineBeverage">
+      <point x="0.0" y="-38.0" />
+      <point x="24.625" y="72.5" />
+    </edge>
+    <edge source="templateMethod.Client" target="templateMethod.CaffeineBeverage">
+      <point x="58.33333333333331" y="-26.5" />
+      <point x="373.8333333333333" y="306.0" />
+      <point x="424.5" y="306.0" />
+      <point x="424.5" y="185.0" />
+      <point x="364.75" y="185.0" />
+      <point x="73.875" y="72.5" />
+    </edge>
+    <edge source="templateMethod.Client" target="templateMethod.Tea">
+      <point x="-58.33333333333337" y="-26.5" />
+      <point x="257.16666666666663" y="306.0" />
+      <point x="98.5" y="306.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="templateMethod.Tea" target="templateMethod.CaffeineBeverage">
+      <point x="0.0" y="-38.0" />
+      <point x="98.5" y="185.0" />
+      <point x="266.25" y="185.0" />
+      <point x="-24.625" y="72.5" />
+    </edge>
+    <edge source="templateMethod.Client" target="templateMethod.Coffee">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="207.00000000000006" y="161.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

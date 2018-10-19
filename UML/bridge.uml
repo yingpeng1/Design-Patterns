@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bridge</OriginalElement>
+  <nodes>
+    <node x="332.97878787878795" y="0.0">bridge.TV</node>
+    <node x="0.0" y="183.0">bridge.RCA</node>
+    <node x="291.47878787878784" y="539.0">bridge.Client</node>
+    <node x="555.2750000000001" y="366.0">bridge.ConcreteRemoteControl2</node>
+    <node x="429.3325757575758" y="159.0">bridge.RemoteControl</node>
+    <node x="292.27500000000003" y="366.0">bridge.ConcreteRemoteControl1</node>
+    <node x="196.0" y="183.0">bridge.Sony</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bridge.RemoteControl" target="bridge.TV">
+      <point x="45.75" y="-73.5" />
+      <point x="566.5825757575758" y="129.0" />
+      <point x="464.97878787878795" y="129.0" />
+      <point x="44.0" y="49.5" />
+    </edge>
+    <edge source="bridge.ConcreteRemoteControl2" target="bridge.TV">
+      <point x="80.66666666666663" y="-61.5" />
+      <point x="756.9416666666667" y="326.0" />
+      <point x="677.9159090909092" y="326.0" />
+      <point x="677.9159090909092" y="119.0" />
+      <point x="494.3121212121212" y="119.0" />
+      <point x="73.33333333333326" y="49.5" />
+    </edge>
+    <edge source="bridge.ConcreteRemoteControl2" target="bridge.RemoteControl">
+      <point x="0.0" y="-61.5" />
+      <point x="676.2750000000001" y="336.0" />
+      <point x="594.0325757575757" y="336.0" />
+      <point x="73.19999999999993" y="73.5" />
+    </edge>
+    <edge source="bridge.ConcreteRemoteControl1" target="bridge.TV">
+      <point x="-80.66666666666669" y="-61.5" />
+      <point x="332.60833333333335" y="346.0" />
+      <point x="382.5" y="346.0" />
+      <point x="382.5" y="139.0" />
+      <point x="406.31212121212127" y="139.0" />
+      <point x="-14.666666666666686" y="49.5" />
+    </edge>
+    <edge source="bridge.ConcreteRemoteControl1" target="bridge.RemoteControl">
+      <point x="0.0" y="-61.5" />
+      <point x="413.27500000000003" y="346.0" />
+      <point x="447.63257575757586" y="346.0" />
+      <point x="-73.19999999999999" y="73.5" />
+    </edge>
+    <edge source="bridge.Client" target="bridge.ConcreteRemoteControl1">
+      <point x="2.8421709430404007E-14" y="-26.5" />
+      <point x="378.9787878787879" y="514.0" />
+      <point x="413.27500000000003" y="514.0" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="bridge.Sony" target="bridge.TV">
+      <point x="0.0" y="-49.5" />
+      <point x="284.0" y="139.0" />
+      <point x="376.97878787878795" y="139.0" />
+      <point x="-44.0" y="49.5" />
+    </edge>
+    <edge source="bridge.Client" target="bridge.RCA">
+      <point x="-58.333333333333314" y="-26.5" />
+      <point x="320.6454545454545" y="514.0" />
+      <point x="88.0" y="514.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="bridge.Client" target="bridge.RemoteControl">
+      <point x="58.33333333333334" y="-26.5" />
+      <point x="437.3121212121212" y="514.0" />
+      <point x="544.7750000000001" y="514.0" />
+      <point x="544.7750000000001" y="346.0" />
+      <point x="520.8325757575758" y="346.0" />
+      <point x="0.0" y="73.5" />
+    </edge>
+    <edge source="bridge.RCA" target="bridge.TV">
+      <point x="0.0" y="-49.5" />
+      <point x="88.0" y="129.0" />
+      <point x="347.64545454545464" y="129.0" />
+      <point x="-73.33333333333331" y="49.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="296.00000000000006" y="420.5" />
+  <SelectedNodes>
+    <node>bridge.Sony</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

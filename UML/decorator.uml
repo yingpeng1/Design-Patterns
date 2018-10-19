@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>decorator</OriginalElement>
+  <nodes>
+    <node x="234.37499999999997" y="0.0">decorator.Beverage</node>
+    <node x="475.0565476190476" y="113.0">decorator.HouseBlend</node>
+    <node x="310.0565476190476" y="113.0">decorator.DarkRoast</node>
+    <node x="89.71180555555554" y="113.0">decorator.CondimentDecorator</node>
+    <node x="180.0" y="216.0">decorator.Mocha</node>
+    <node x="0.0" y="216.0">decorator.Milk</node>
+    <node x="327.5868055555556" y="343.0">decorator.Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="decorator.Client" target="decorator.HouseBlend">
+      <point x="21.874999999999943" y="-26.5" />
+      <point x="436.96180555555554" y="313.0" />
+      <point x="547.5565476190476" y="313.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="decorator.CondimentDecorator" target="decorator.Beverage">
+      <point x="45.49999999999994" y="-26.5" />
+      <point x="226.2118055555555" y="93.0" />
+      <point x="286.1607142857142" y="93.0" />
+      <point x="-20.714285714285722" y="26.5" />
+    </edge>
+    <edge source="decorator.DarkRoast" target="decorator.Beverage">
+      <point x="0.0" y="-26.5" />
+      <point x="382.5565476190476" y="93.0" />
+      <point x="327.58928571428567" y="93.0" />
+      <point x="20.714285714285666" y="26.5" />
+    </edge>
+    <edge source="decorator.Milk" target="decorator.CondimentDecorator">
+      <point x="0.0" y="-38.5" />
+      <point x="80.0" y="191.0" />
+      <point x="112.46180555555554" y="191.0" />
+      <point x="-68.25" y="26.5" />
+    </edge>
+    <edge source="decorator.Client" target="decorator.Milk">
+      <point x="-65.62500000000006" y="-26.5" />
+      <point x="349.46180555555554" y="323.0" />
+      <point x="80.0" y="323.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="decorator.Mocha" target="decorator.Beverage">
+      <point x="58.333333333333314" y="-38.5" />
+      <point x="325.8333333333333" y="191.0" />
+      <point x="299.5565476190476" y="191.0" />
+      <point x="299.5565476190476" y="93.0" />
+      <point x="306.875" y="93.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="decorator.Client" target="decorator.Mocha">
+      <point x="-21.875000000000057" y="-26.5" />
+      <point x="393.21180555555554" y="313.0" />
+      <point x="267.5" y="313.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="decorator.Client" target="decorator.Beverage">
+      <point x="65.62499999999994" y="-26.5" />
+      <point x="480.71180555555554" y="323.0" />
+      <point x="630.5565476190476" y="323.0" />
+      <point x="630.5565476190476" y="73.0" />
+      <point x="369.0178571428571" y="73.0" />
+      <point x="62.14285714285711" y="26.5" />
+    </edge>
+    <edge source="decorator.Mocha" target="decorator.CondimentDecorator">
+      <point x="-58.33333333333337" y="-38.5" />
+      <point x="209.16666666666663" y="191.0" />
+      <point x="203.46180555555554" y="191.0" />
+      <point x="22.75" y="26.5" />
+    </edge>
+    <edge source="decorator.Milk" target="decorator.Beverage">
+      <point x="-53.33333333333337" y="-38.5" />
+      <point x="26.66666666666663" y="191.0" />
+      <point x="57.40525793650795" y="191.0" />
+      <point x="57.40525793650795" y="73.0" />
+      <point x="244.7321428571428" y="73.0" />
+      <point x="-62.14285714285717" y="26.5" />
+    </edge>
+    <edge source="decorator.HouseBlend" target="decorator.Beverage">
+      <point x="0.0" y="-26.5" />
+      <point x="547.5565476190476" y="83.0" />
+      <point x="348.30357142857133" y="83.0" />
+      <point x="41.42857142857139" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="298.49999999999994" y="173.5" />
+  <SelectedNodes>
+    <node>decorator.Milk</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

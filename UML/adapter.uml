@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>adapter</OriginalElement>
+  <nodes>
+    <node x="320.1875" y="0.0">adapter.Duck</node>
+    <node x="84.33333333333337" y="0.0">adapter.Turkey</node>
+    <node x="127.12499999999999" y="274.0">adapter.Client</node>
+    <node x="10.5" y="127.0">adapter.WildTurkey</node>
+    <node x="197.5" y="103.0">adapter.TurkeyAdapter</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="adapter.Client" target="adapter.WildTurkey">
+      <point x="-21.875" y="-26.5" />
+      <point x="192.75" y="244.0" />
+      <point x="84.0" y="244.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="adapter.Client" target="adapter.Turkey">
+      <point x="-65.625" y="-26.5" />
+      <point x="149.0" y="254.0" />
+      <point x="0.0" y="254.0" />
+      <point x="0.0" y="73.0" />
+      <point x="102.70833333333337" y="73.0" />
+      <point x="-55.125" y="26.5" />
+    </edge>
+    <edge source="adapter.Client" target="adapter.Duck">
+      <point x="65.625" y="-26.5" />
+      <point x="280.25" y="254.0" />
+      <point x="422.8779761904762" y="254.0" />
+      <point x="422.8779761904762" y="83.0" />
+      <point x="425.1875" y="83.0" />
+      <point x="35.0" y="26.5" />
+    </edge>
+    <edge source="adapter.TurkeyAdapter" target="adapter.TurkeyAdapter">
+      <point x="-51.25" y="50.5" />
+      <point x="248.75" y="224.0" />
+      <point x="177.5" y="224.0" />
+      <point x="177.5" y="153.5" />
+      <point x="-102.5" y="-0.0" />
+    </edge>
+    <edge source="adapter.TurkeyAdapter" target="adapter.Duck">
+      <point x="68.33333333333334" y="-50.5" />
+      <point x="368.33333333333337" y="83.0" />
+      <point x="355.1875" y="83.0" />
+      <point x="-35.0" y="26.5" />
+    </edge>
+    <edge source="adapter.WildTurkey" target="adapter.Turkey">
+      <point x="0.0" y="-26.5" />
+      <point x="84.0" y="83.0" />
+      <point x="139.45833333333337" y="83.0" />
+      <point x="-18.375" y="26.5" />
+    </edge>
+    <edge source="adapter.Client" target="adapter.TurkeyAdapter">
+      <point x="21.875" y="-26.5" />
+      <point x="236.5" y="244.0" />
+      <point x="351.25" y="244.0" />
+      <point x="51.25" y="50.5" />
+    </edge>
+    <edge source="adapter.TurkeyAdapter" target="adapter.Turkey">
+      <point x="2.8421709430404007E-14" y="-50.5" />
+      <point x="300.0" y="73.0" />
+      <point x="212.95833333333337" y="73.0" />
+      <point x="55.125" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="183.5" y="202.5" />
+  <SelectedNodes>
+    <node>adapter.TurkeyAdapter</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

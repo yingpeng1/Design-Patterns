@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>proxy</OriginalElement>
+  <nodes>
+    <node x="209.6190476190476" y="518.0">proxy.ImageViewer</node>
+    <node x="20.0" y="357.0">proxy.ImageProxy</node>
+    <node x="158.46904761904761" y="103.0">proxy.HighResolutionImage</node>
+    <node x="88.61666666666667" y="0.0">proxy.Image</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="proxy.HighResolutionImage" target="proxy.HighResolutionImage">
+      <point x="-91.2" y="97.0" />
+      <point x="181.2690476190476" y="317.0" />
+      <point x="138.46904761904761" y="317.0" />
+      <point x="138.46904761904761" y="200.0" />
+      <point x="-114.0" y="-0.0" />
+    </edge>
+    <edge source="proxy.HighResolutionImage" target="proxy.Image">
+      <point x="0.0" y="-97.0" />
+      <point x="272.4690476190476" y="78.0" />
+      <point x="217.61666666666667" y="78.0" />
+      <point x="43.0" y="26.5" />
+    </edge>
+    <edge source="proxy.ImageViewer" target="proxy.ImageProxy">
+      <point x="-65.625" y="-26.5" />
+      <point x="231.4940476190476" y="498.0" />
+      <point x="180.0" y="498.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="proxy.ImageProxy" target="proxy.ImageProxy">
+      <point x="-106.66666666666669" y="50.5" />
+      <point x="73.33333333333331" y="478.0" />
+      <point x="0.0" y="478.0" />
+      <point x="0.0" y="407.5" />
+      <point x="-160.0" y="-0.0" />
+    </edge>
+    <edge source="proxy.ImageProxy" target="proxy.Image">
+      <point x="-106.66666666666669" y="-50.5" />
+      <point x="73.33333333333331" y="337.0" />
+      <point x="91.26428571428568" y="337.0" />
+      <point x="91.26428571428568" y="78.0" />
+      <point x="131.61666666666667" y="78.0" />
+      <point x="-43.0" y="26.5" />
+    </edge>
+    <edge source="proxy.ImageProxy" target="proxy.HighResolutionImage">
+      <point x="0.0" y="-50.5" />
+      <point x="180.0" y="337.0" />
+      <point x="226.8690476190476" y="337.0" />
+      <point x="-45.599999999999994" y="97.0" />
+    </edge>
+    <edge source="proxy.ImageViewer" target="proxy.HighResolutionImage">
+      <point x="65.625" y="-26.5" />
+      <point x="362.7440476190476" y="498.0" />
+      <point x="361.5" y="498.0" />
+      <point x="361.5" y="337.0" />
+      <point x="363.6690476190476" y="337.0" />
+      <point x="91.19999999999999" y="97.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="284.0" y="409.5" />
+  <SelectedNodes>
+    <node>proxy.ImageViewer</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
